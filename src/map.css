@@ -1,0 +1,66 @@
+.map {
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    height: 100vh;
+    width: calc(100vw - 100px);
+}
+
+.ol-map {
+    height: 100%;
+    width: 100%;
+}
+
+.ol-control {
+    position: absolute;
+    bottom: 10px;
+    margin-left: 10px;
+    background: transparent;
+    border-radius: 4px;
+    padding: 2px;
+}
+
+.ol-full-screen {
+    top: .5em;
+    right: .5em;
+}
+
+.ol-attribution {
+    visibility: hidden;
+}
+
+.ol-rotate {
+    visibility: hidden;
+}
+
+.ol-zoom button {
+    position: relative;
+    width: 20px;
+    height: 20px;
+    font-size: .8rem;
+    background-color: #55bae5;
+    font-weight: bold;
+    color: navy;
+    margin: 10px;
+}
+
+.locate-btn {
+    padding: 12px;
+    margin: 12px auto;
+    color: white;
+    background: #202325;
+}
+
+.btn-container {
+    display: flex;
+}
+
+.text {
+    text-align: center;
+    color: aliceblue;
+}
+
+body {
+    background: url("bg.jpg");
+}
